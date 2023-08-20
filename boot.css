@@ -1,0 +1,110 @@
+﻿.navbar
+{
+    background-color:#ff006e !important;
+}
+
+.carouseExampleAutoplaying{
+    position:relative;
+    top:80px;
+}
+
+.carouse-inner{
+    height: 500px;
+}
+
+.Productlist{
+    position:relative;
+    top:80px;
+}
+
+@media screen and (min-width:700px) and (max-width:1024px){
+    .Productlist{
+        position: relative;
+        top: 30px;
+    }
+
+    .card{
+        margin-bottom:10px;
+    }
+
+    #footer {
+        position: relative;
+        top: 100px;
+        background: lightgrey;
+        height: 300px;
+    }
+}
+footer {
+    position: relative;
+    top: 15em;
+    color: #565656;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+    footer .container .col-sm-4 ul li a {
+        color: #565656;
+    }
+
+        footer .container .col-sm-4 ul li a:hover {
+            text-decoration: none;
+        }
+
+    footer .container-fluid span {
+        font-size: 30px;
+        position: absolute;
+        top: 25%;
+        left: 12%;
+    }
+
+    footer .container-fluid h3 {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    footer .contact button {
+        background-color: #565656;
+        color: #fff;
+    }
+
+@media (min-width:863px) {
+    footer .container-fluid span {
+        font-size: 40px;
+        position: absolute;
+        top: 10%;
+    }
+
+    footer .container-fluid h3 {
+        font-size: 1.9rem;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        top: -10px;
+    }
+}
+body
+h1 {
+    font-size: 70px;
+}
+
+p {
+    text-align: center;
+}
+
+
+@media screen and (min-width:700px) and (max-width:1024px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (min-width:320px) and ( max-width:680px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        text-align: left;
+    }
+}
